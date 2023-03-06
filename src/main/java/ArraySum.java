@@ -6,8 +6,15 @@ public class ArraySum {
      * @param arr an array of ints
      * @return the sum of all values in arr.
      */
+    public static void main(String[] args){
+        
+    }
     public int sum(int[] arr){
-
-        return 0;
+        int result = 0;
+     for(int i=0; i<arr.length; i++){
+       result+= arr[i];
+     }       
+     return result;
+    
     }
 }
